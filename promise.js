@@ -65,3 +65,14 @@ Promise.all(urls.map((url) => fetch(url).then((response) => response.json()))).t
     console.log(results[3]);
 })
 .catch((error) => console.log("Error fetching data"))
+
+
+
+
+
+
+
+
+
+
+
