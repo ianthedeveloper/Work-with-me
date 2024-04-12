@@ -27,8 +27,9 @@ const promise = new Promise ((resolve, reject) => {
 
 
     // Promise.all()
+    // Ex.1
     const promise = new Promise ((resolve, reject) => {
-        if(false){
+        if(true){
             return resolve("It Worked!");
         }else{
             return reject("Error! Error! Error!");
@@ -44,6 +45,22 @@ const promise = new Promise ((resolve, reject) => {
 
     const promise4 = new Promise ((resolve, reject) => setTimeout(resolve, 2000, "Harry"))
 
-    promise.all([promise, promise2, promise3, promise4])
+    Promise.all([promise, promise2, promise3, promise4])
             .then((results) => console.log(results))
-    
+
+
+
+// Ex.2
+const urls = [
+    "https://jsonplaceholder.typicode.com/users",
+    "https://jsonplaceholder.typicode.com/posts",
+    "https://jsonplaceholder.typicode.com/albums",
+    "https://jsonplaceholder.typicode.com/todos"
+]
+
+Promise.all(urls.map((urls) => {return fetch(urls).then((response) => response.json())})).then((result) => {
+    console.log(result[0]);
+    console.log(result[1]);
+    console.log(result[2]);
+    console.log(result[3]);
+})
