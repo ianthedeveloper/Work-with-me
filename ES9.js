@@ -20,3 +20,18 @@ function showEm (p1, p2, p3) {
 }
 
 showEm(xchtr2, xchtr3, rest);
+
+
+
+
+
+
+
+
+
+// 2. finally() function in promises
+const smartWork = new Promise((resolve, reject) => setTimeout(resolve, 1000, "Will get you results"));
+
+smartWork.then((result) => console.log(result))
+         .catch((error) => console.log("Opps! There was an error"))
+         .finally(() => console.log("That's tested"))
