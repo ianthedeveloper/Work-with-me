@@ -58,9 +58,10 @@ const urls = [
     "https://jsonplaceholder.typicode.com/todos"
 ]
 
-Promise.all(urls.map((urls) => {return fetch(urls).then((response) => response.json())})).then((result) => {
-    console.log(result[0]);
-    console.log(result[1]);
-    console.log(result[2]);
-    console.log(result[3]);
+Promise.all(urls.map((url) => {return fetch(url).then((response) => response.json())})).then((results) => {
+    console.log(results[0]);
+    console.log(results[1]);
+    console.log(results[2]);
+    console.log(results[3]);
 })
+.catch((error) => console.log("Error fetching data"))
