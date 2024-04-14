@@ -14,60 +14,16 @@ Promise.allSettled([haha, ahhh])
         .catch((error) => console.log("Error!"))
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // REVISION
-const promise1 = new Promise ((reject, resolve) => 
+const promise1 = new Promise ((resolve, reject) => 
         resolve("The Future is bright. Never doubt that! ")
 ); 
 
-const promise2 = new Promise ((resolve, reject) =>
-        setTimeout(resolve,1000, "Accept your identity & make the most you can make out of it.")
-);
+const promise2 = new Promise ((resolve, reject) =>{
+        return setTimeout(() => resolve("Thank You God For The Day!"), 1000)
+});
 
-const promise3 = new Promise((reject, resolve) => 
+const promise3 = new Promise((resolve, reject) => 
         resolve("You gotta make this happen. You got no options left. Big Up G!")
 );
 
