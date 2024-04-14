@@ -63,13 +63,15 @@ const promise1 = new Promise ((reject, resolve) =>
         resolve("The Future is bright. Never doubt that! ")
 ); 
 
-const promise2 = new Promise ((resolve, reject) => {
-        return setTimeout(resolve,1000, "Accept your identity & make the most you can make out of it.")
-});
-
-const promise3 = new Promise((reject, resolve) => 
-        resolve("You gotta make this happen. YOu got no options left. Big Up G!")
+const promise2 = new Promise ((resolve, reject) =>
+        setTimeout(resolve,1000, "Accept your identity & make the most you can make out of it.")
 );
 
-Promise.all([promise1, promise2, promise2])
+const promise3 = new Promise((reject, resolve) => 
+        resolve("You gotta make this happen. You got no options left. Big Up G!")
+);
+
+Promise.all([promise1, promise2, promise3])
+        .then((results) => console.log(results) )
+        .catch((error) => console.log("Error", error))
 
