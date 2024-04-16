@@ -1,6 +1,6 @@
 // NEW FEATURE
 
-const haha = new Promise((resolve, reject) => setTimeout(reject, 1000, "Rejected"))
+const haha = new Promise((resolve, reject) => setTimeout(reject, 1000, "Rejected"));
 
 const ahhh = new Promise((reject, resolve) => setTimeout(resolve, 3000, "Resolved"));
 
