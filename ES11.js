@@ -51,4 +51,4 @@ const promise3 = new Promise((resolve, reject) =>
 
 Promise.any([promise1, promise2, promise3])
         .then((results) => console.log(results) )
-        .catch((error) => console.log("Error", error)
+        .catch((error) => console.log("Error", error))
