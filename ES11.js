@@ -39,17 +39,16 @@ Promise.all([promise1, promise2, promise3])
 // Promise.any()
 //NB: Promise.any() resolves the whichever Promise that gets reolved first and throws an Error if none of the Promises are resolved
 
-const promise1 = new Promise ((resolve, reject) => 
-        setTimeout(() => reject("Tom")),1000
+const promise1 = new Promise ((resolve, reject) =>
+        resolve("Tom")
 ); 
 
 const promise2 = new Promise ((resolve, reject) =>
-        setTimeout(() => resolved("Dicky")),2000
-
+        resolve("Dicky")
 );
 
-const promise3 = new Promise((resolve, reject) => 
-        setTimeout(() => reject("Harry")),3000
+const promise3 = new Promise((resolve, reject) =>
+        resolve("Harry")
 );
 
 Promise.any([promise1, promise2, promise3])
