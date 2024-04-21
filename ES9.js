@@ -49,13 +49,6 @@ const fetching = fetch("https://jsonplaceholder.typicode.com/users")
 .then(results => console.log(results))
 .catch(error => console.log('Error', error))
 
-const fetching = new Promise((resolve, reject) => 
-fetch("https://jsonplaceholder.typicode.com/users")
-)
-
-.then(response => response.json())
-.then(results => console.log(results))
-.catch(error => console.log('Error', error))
 
 
 
