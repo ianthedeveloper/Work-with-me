@@ -14,9 +14,9 @@ const xchtrs = {
 const {xchtr2,xchtr3, ...rest} = xchtrs;
 
 function showEm (p1, p2, p3) {
-    console.log(p1);
-    console.log(p2);
     console.log(p3);
+    console.log(p2);
+    console.log(p1);
 }
 
 showEm(xchtr2, xchtr3, rest);
