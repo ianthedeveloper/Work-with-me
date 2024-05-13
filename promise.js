@@ -55,7 +55,7 @@ const urls = [
     "https://jsonplaceholder.typicode.com/users",
     "https://jsonplaceholder.typicode.com/posts",
     "https://jsonplaceholder.typicode.com/albums",
-    "https://jsonplaceholder.typicode.com/todos"
+    // "https://jsonplaceholder.typicode.com/todos"
 ]
 
 Promise.all(urls.map((url) => fetch(url).then((response) => response.json()))).then((results) => {
