@@ -32,7 +32,7 @@ const promise = new Promise ((resolve, reject) => {
         if(true){
             return resolve("It gotta work");
         }else{
-            return reject("Error! Error! Error!");
+            return reject("Ooops! An error occurred");
         }
     })
 
