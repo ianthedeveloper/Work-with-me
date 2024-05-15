@@ -76,7 +76,7 @@ const smartWork = new Promise((resolve, reject) => setTimeout(resolve, 1000, "Wi
 
 smartWork.then((result) => console.log(result))
          .catch((error) => console.log("Opps! There was an error"))
-         .finally(() => console.log("That's tested"))
+         .finally(() => console.log("Final statement"))
 
 
 
