@@ -8,7 +8,7 @@
 const xchtrs = {
     xchtr1: "Jameson",
     xchtr2: "Black Label",
-    xchtr3: "Ciroc"
+    xchtr3: "Red Label"
 }
 
 const {xchtr2,xchtr3, ...rest} = xchtrs;
