@@ -11,7 +11,7 @@ Promise.all([haha, ahhh])
 
 Promise.allSettled([haha, ahhh])
         .then((data) => console.log(data))
-        .catch((error) => console.log("Oops! An error occurred"))
+        .catch((error) => console.log("There was an error"))
 
 
 // REVISION
