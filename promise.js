@@ -30,7 +30,7 @@ const promise = new Promise ((resolve, reject) => {
     // Ex.1
     const promise = new Promise ((resolve, reject) => {
         if(true){
-            return resolve("It gotta work");
+            return resolve("I'll make it work");
         }else{
             return reject("Ooops! An error occurred");
         }
