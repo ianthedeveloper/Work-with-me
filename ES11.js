@@ -16,7 +16,7 @@ Promise.allSettled([haha, ahhh])
 
 // REVISION
 const promise1 = new Promise ((resolve, reject) => 
-        resolve("I made a plan & I'm followng it through")
+        resolve("I made a plan & I'm followng it through. Take a sit, relax & watch me do it!")
 ); 
 
 const promise2 = new Promise ((resolve, reject) =>{
