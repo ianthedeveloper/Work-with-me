@@ -20,7 +20,7 @@ const promise = new Promise ((resolve, reject) => {
         throw Error;
         console.log(result3)
     })
-    .catch((error) => console.log("Error!"))
+    .catch((error) => console.log("Error! Error! Error! "))
 
 
 
