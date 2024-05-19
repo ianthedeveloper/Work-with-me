@@ -16,7 +16,7 @@ Promise.allSettled([haha, ahhh])
 
 // REVISION
 const promise1 = new Promise ((resolve, reject) => 
-        resolve("After thinking and being at it for quite some while, I just came to realize that I'll really start living my life at 31. The question now becomes, will I commit, or will I give up like a coward ? Food for thought")
+        resolve("For now my full focus is on building a life for the next 10 yrs. A life that will serve me more than adequately for the rest of my life")
 ); 
 
 const promise2 = new Promise ((resolve, reject) =>{
