@@ -30,7 +30,7 @@ const promise = new Promise ((resolve, reject) => {
     // Ex.1
     const promise = new Promise ((resolve, reject) => {
         if(true){
-            return resolve("To make it happen, also understand that at the end of the day you are also a human being. Treat yourself with compassion whenever things go wrong, don't dwell into a mistake for so long, mehn, we live & learn but most importantly we learn best from our mistakes. Look at life and anything you put your head into as a marathon and not a sprint ");
+            return resolve("I was just reminded by My G today that when 'IT' will happen should never worry me no more.");
         }else{
             return reject("Ooops! An error occurred");
         }
