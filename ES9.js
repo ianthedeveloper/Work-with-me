@@ -6,9 +6,9 @@
 
 // 1. Spreads in Objects
 const xchtrs = {
-    xchtr1: "Geogina Gathoi Mwaniki",
-    xchtr2: "Ian Mungaii Mwaniki",
-    xchtr3: "Morris Karumba Mwaniki"
+    xchtr1: "Dax",
+    xchtr2: "Joyner",
+    xchtr3: "Hopsin"
 }
 
 const {xchtr2,xchtr3, ...rest} = xchtrs;
