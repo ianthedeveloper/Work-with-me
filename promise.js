@@ -2,7 +2,7 @@ const promise = new Promise ((resolve, reject) => {
     if(false){
         return resolve("It Worked!");
     }else{
-        return reject("Ooops! There was an error");
+        return reject("Error! Error! Error!");
     }
 })
 
