@@ -37,13 +37,13 @@ const promise = new Promise ((resolve, reject) => {
     })
 
     
-    const promise2 = new Promise ((resolve, reject) => setTimeout(resolve, 100, "Tom"))
+    const promise2 = new Promise ((resolve, reject) => setTimeout(resolve, 100, "Kim"))
 
     
-    const promise3 = new Promise ((resolve, reject) => setTimeout(resolve, 1000, "Dick"))
+    const promise3 = new Promise ((resolve, reject) => setTimeout(resolve, 1000, "Becky"))
 
 
-    const promise4 = new Promise ((resolve, reject) => setTimeout(resolve, 2000, "Harry"))
+    const promise4 = new Promise ((resolve, reject) => setTimeout(resolve, 2000, "Madona"))
 
     Promise.all([promise, promise2, promise3, promise4])
             .then((results) => console.log(results))
