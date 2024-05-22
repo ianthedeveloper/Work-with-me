@@ -2,7 +2,7 @@
 
 const haha = new Promise((resolve, reject) => setTimeout(reject, 3000, "Reject"));
 
-const ahhh = new Promise((reject, resolve) => setTimeout(resolve, 6000, "Resolve"));
+const ahhh = new Promise((reject, resolve) => setTimeout(resolve, 4000, "Resolve"));
 
 Promise.all([haha, ahhh])
         .then((date) => console.log(data))
