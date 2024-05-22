@@ -24,7 +24,7 @@ const promise2 = new Promise ((resolve, reject) =>{
 });
 
 const promise3 = new Promise((resolve, reject) => 
-        resolve("Daily reminder: Respect is earned, not demanded")
+        resolve("Daily reminder: Make progress fun since it's a slow and testing process")
 );
 
 Promise.all([promise1, promise2, promise3])
