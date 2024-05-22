@@ -44,7 +44,7 @@ const promise1 = new Promise ((resolve, reject) =>
 ); 
 
 const promise2 = new Promise ((resolve, reject) =>
-        resolve("BMW M4")
+        resolve("Rolls Royce Dawn")
 );
 
 const promise3 = new Promise((resolve, reject) =>
