@@ -1,8 +1,8 @@
 // NEW FEATURE
 
-const haha = new Promise((resolve, reject) => setTimeout(reject, 3000, "Reject"));
+const haha = new Promise((resolve, reject) => setTimeout(reject, 3000, "Rejected"));
 
-const ahhh = new Promise((reject, resolve) => setTimeout(resolve, 4000, "Resolve"));
+const ahhh = new Promise((reject, resolve) => setTimeout(resolve, 4000, "Resolved"));
 
 Promise.all([haha, ahhh])
         .then((date) => console.log(data))
@@ -24,7 +24,7 @@ const promise2 = new Promise ((resolve, reject) =>{
 });
 
 const promise3 = new Promise((resolve, reject) => 
-        resolve("Daily reminder: Make progress fun since it's a slow and testing process")
+        resolve("Daily reminder: Forward is the only way, the only option in fact!")
 );
 
 Promise.all([promise1, promise2, promise3])
