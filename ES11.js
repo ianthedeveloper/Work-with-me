@@ -6,7 +6,7 @@ const ahhh = new Promise((reject, resolve) => setTimeout(resolve, 4000, "Resolve
 
 Promise.all([haha, ahhh])
         .then((date) => console.log(data))
-        .catch((error) => console.log("Ooop! There was an error"))
+        .catch((error) => console.log("Error! Error! Error!"))
         
 
 Promise.allSettled([haha, ahhh])
