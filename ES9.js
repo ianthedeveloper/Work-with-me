@@ -7,8 +7,8 @@
 // 1. Spreads in Objects
 const xchtrs = {
     xchtr1: "Finding",
-    xchtr2: "A",
-    xchtr3: "The Weekend"
+    xchtr2: "A Loop",
+    xchtr3: "In The System"
 }
 
 const {xchtr2,xchtr3, ...rest} = xchtrs;
