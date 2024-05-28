@@ -30,7 +30,7 @@ const promise = new Promise ((resolve, reject) => {
     // Ex.1
     const promise = new Promise ((resolve, reject) => {
         if(true){
-            return resolve("Daily reminder: 'Winners are just losers who never quit & losers who just winners who quit'");
+            return resolve("Daily reminder: Be You. Do You. Have Fun In The Process. Period");
         }else{
             return reject("Ooops! An error occurred");
         }
