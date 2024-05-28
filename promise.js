@@ -14,7 +14,7 @@ const promise = new Promise ((resolve, reject) => {
 
 
 // 2
-    Promise.then((result) => result + "!")
+    Promise.then((result) => result + "?")
     .then((result2) => result2 + "!")
     .then((result3) =>{
         throw Error;
