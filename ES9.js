@@ -6,9 +6,9 @@
 
 // 1. Spreads in Objects
 const xchtrs = {
-    xchtr1: "Finding",
-    xchtr2: "A Loop",
-    xchtr3: "In The Matrix"
+    xchtr1: "I'm Creating",
+    xchtr2: "My Own Loop",
+    xchtr3: "In This Matrix"
 }
 
 const {xchtr2,xchtr3, ...rest} = xchtrs;
