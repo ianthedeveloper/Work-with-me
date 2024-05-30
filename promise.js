@@ -76,7 +76,7 @@ const smartWork = new Promise((resolve, reject) => setTimeout(resolve, 1000, "Da
 
 smartWork.then((result) => console.log(result))
          .catch((error) => console.log("Opps! There was an error"))
-         .finally(() => console.log("Daily Reminder: Assuming you know nothing is always better than assuming you kknow everything. Always lean into learning, correction and learning & growing from my mistakes"))
+         .finally(() => console.log("Daily Reminder: Anything Worthwhile Has a Plan Behing It"))
 
 
 
