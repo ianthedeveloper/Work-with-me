@@ -72,7 +72,7 @@ Promise.all(urls.map((url) => fetch(url).then((response) => response.json()))).t
 
 
 // 2. finally() function in promises
-const smartWork = new Promise((resolve, reject) => setTimeout(resolve, 1000, "Daily Reminder: Always operate from a dynamic point of view on most of life experiences. Being static only waves you to expect the outcomes in almost all of life's experiences to be the samme and that's such a dangerous position to be in"));
+const smartWork = new Promise((resolve, reject) => setTimeout(resolve, 1000, "Daily Reminder: Stick to the script!"));
 
 smartWork.then((result) => console.log(result))
          .catch((error) => console.log("Error! Error! Error!"))
