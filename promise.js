@@ -64,7 +64,7 @@ Promise.all(urls.map((url) => fetch(url).then((response) => response.json()))).t
     console.log(results[2]);
     console.log(results[3]);
 })
-.catch((error) => console.log("Error! Error! Error!"))
+.catch((error) => console.log("There was an error!"))
 
 
 
