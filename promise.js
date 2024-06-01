@@ -30,7 +30,7 @@ const promise = new Promise ((resolve, reject) => {
     // Ex.1
     const promise = new Promise ((resolve, reject) => {
         if(true){
-            return resolve("Daily reminder: Be You. Do You. Have Fun In The Process. Period");
+            return resolve("Daily reminder: Be comfortable with where you are from. Be comfortable with where you are. Be comfortable with where you are going. Most importantly, be comfortable in your own skin in the entire process. On God!");
         }else{
             return reject("Ooops! An error occurred");
         }
