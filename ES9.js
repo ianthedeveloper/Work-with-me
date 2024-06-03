@@ -8,7 +8,7 @@
 const xchtrs = {
     xchtr1: "Be",
     xchtr2: "More Keen",
-    xchtr3: "Smile!"
+    xchtr3: "On What Happens Aroun You At All Times"
 }
 
 const {xchtr2,xchtr3, ...rest} = xchtrs;
