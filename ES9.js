@@ -7,7 +7,7 @@
 // 1. Spreads in Objects
 const xchtrs = {
     xchtr1: "Be",
-    xchtr2: "That",
+    xchtr2: "More Keen",
     xchtr3: "Smile!"
 }
 
