@@ -1,8 +1,8 @@
 // NEW FEATURE
 
-const haha = new Promise((resolve, reject) => setTimeout(reject, 2000, "Reject"));
+const haha = new Promise((resolve, reject) => setTimeout(reject, 3000, "Reject"));
 
-const ahhh = new Promise((reject, resolve) => setTimeout(resolve, 7000, "Resolve"));
+const ahhh = new Promise((reject, resolve) => setTimeout(resolve, 9000, "Resolve"));
 
 Promise.all([haha, ahhh])
         .then((date) => console.log(data))
