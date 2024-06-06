@@ -20,7 +20,7 @@ const promise1 = new Promise ((resolve, reject) =>
 ); 
 
 const promise2 = new Promise ((resolve, reject) =>{
-        return setTimeout(() => resolve("Thank you Creator for giving me another chance to develop my life. On God!"), 3000)
+        return setTimeout(() => resolve("Thank you Creator for gift of something to do. On God!"), 3000)
 });
 
 const promise3 = new Promise((resolve, reject) => 
