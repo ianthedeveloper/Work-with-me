@@ -8,7 +8,7 @@
 const xchtrs = {
     xchtr1: "Systems",
     xchtr2: "Do",
-    xchtr3: "Working G!"
+    xchtr3: "Work G!"
 }
 
 const {xchtr2,xchtr3, ...rest} = xchtrs;
