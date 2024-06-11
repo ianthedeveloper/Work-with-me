@@ -37,7 +37,7 @@ const promise = new Promise ((resolve, reject) => {
     })
 
     
-    const promise2 = new Promise ((resolve, reject) => setTimeout(resolve, 1000, "Buggati Chiron"))
+    const promise2 = new Promise ((resolve, reject) => setTimeout(resolve, 1000, "Aston Martin DB12"))
 
     
     const promise3 = new Promise ((resolve, reject) => setTimeout(resolve, 2000, "Koeinigseg Agera"))
