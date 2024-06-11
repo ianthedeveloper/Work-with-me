@@ -40,7 +40,7 @@ const promise = new Promise ((resolve, reject) => {
     const promise2 = new Promise ((resolve, reject) => setTimeout(resolve, 1000, "Aston Martin DB12"))
 
     
-    const promise3 = new Promise ((resolve, reject) => setTimeout(resolve, 2000, "Koeinigseg Agera"))
+    const promise3 = new Promise ((resolve, reject) => setTimeout(resolve, 2000, "Maserrati"))
 
 
     const promise4 = new Promise ((resolve, reject) => setTimeout(resolve, 5000, "2000 Edition, Chevy Camaro"))
