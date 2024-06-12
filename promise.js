@@ -43,7 +43,7 @@ const promise = new Promise ((resolve, reject) => {
     const promise3 = new Promise ((resolve, reject) => setTimeout(resolve, 4000, "Maserrati"))
 
 
-    const promise4 = new Promise ((resolve, reject) => setTimeout(resolve, 6000, "2000 Edition, Ford Mustang"))
+    const promise4 = new Promise ((resolve, reject) => setTimeout(resolve, 6000, "Ferrari"))
 
     Promise.all([promise, promise2, promise3, promise4])
             .then((results) => console.log(results))
