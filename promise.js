@@ -89,7 +89,7 @@ const fetching = fetch("https://jsonplaceholder.typicode.com/users")
 
 .then(response => response.json())
 .then(results => console.log(results))
-.catch(error => console.log('Ooops! There was an error!', error))
+.catch(error => console.log('Error! Error! Error!', error))
 
 
 
