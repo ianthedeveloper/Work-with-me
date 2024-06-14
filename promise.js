@@ -76,7 +76,7 @@ const smartWork = new Promise((resolve, reject) => setTimeout(resolve, 1000, "Da
 
 smartWork.then((result) => console.log(result))
          .catch((error) => console.log("Error! Error! Error!"))
-         .finally(() => console.log("Daily Reminder: I'll make it work for me!"))
+         .finally(() => console.log("Daily Reminder: I'm making it mahn!"))
 
 
 
