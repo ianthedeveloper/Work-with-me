@@ -72,7 +72,7 @@ Promise.all(urls.map((url) => fetch(url).then((response) => response.json()))).t
 
 
 // 2. finally() function in promises
-const smartWork = new Promise((resolve, reject) => setTimeout(resolve, 1000, "Daily Reminder: Stick to the script!"));
+const smartWork = new Promise((resolve, reject) => setTimeout(resolve, 1000, "Daily Reminder: You are winning bruv!"));
 
 smartWork.then((result) => console.log(result))
          .catch((error) => console.log("Error! Error! Error!"))
