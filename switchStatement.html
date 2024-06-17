@@ -1,0 +1,18 @@
+const dataType = (xchtr) => {
+    let type;
+    switch(xchtr){
+        case 1:
+        type = "Integer";
+        break;
+        case "j":
+        type = "Character";
+        break;
+        case "jjj":
+        type = "String";
+        break;
+        default:
+        type = "INVALID XCHTR";
+        break;
+    }
+return type;
+}
