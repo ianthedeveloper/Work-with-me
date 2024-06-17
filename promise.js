@@ -75,7 +75,7 @@ Promise.all(urls.map((url) => fetch(url).then((response) => response.json()))).t
 const smartWork = new Promise((resolve, reject) => setTimeout(resolve, 1000, "Daily Reminder: You are winning bruv!"));
 
 smartWork.then((result) => console.log(result))
-         .catch((error) => console.log("Error! Error! Error!"))
+         .catch((error) => console.log("Oops! There was an error"))
          .finally(() => console.log("Daily Reminder: I'm becoming a GREAT forex trader, only trading a system thay I'll create!"))
 
 
