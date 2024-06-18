@@ -48,7 +48,7 @@ const promise2 = new Promise ((resolve, reject) =>
 );
 
 const promise3 = new Promise((resolve, reject) =>
-        resolve("Aston Martin DBS")
+        resolve("McLaren P1")
 );
 
 Promise.any([promise1, promise2, promise3])
