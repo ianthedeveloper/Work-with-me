@@ -40,7 +40,7 @@ Promise.all([promise1, promise2, promise3])
 //NB: Promise.any() resolves the whichever Promise that gets reolved first and throws an Error if none of the Promises are resolved
 
 const promise1 = new Promise ((resolve, reject) =>
-        resolve("Koenigsegg Agera R")
+        resolve("Lamborghnini SVJ")
 ); 
 
 const promise2 = new Promise ((resolve, reject) =>
