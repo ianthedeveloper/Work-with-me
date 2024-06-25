@@ -48,7 +48,7 @@ const promise2 = new Promise ((resolve, reject) =>
 );
 
 const promise3 = new Promise((resolve, reject) =>
-        resolve("Pagani, Limited Edition")
+        resolve("Porche GTRS")
 );
 
 Promise.any([promise1, promise2, promise3])
