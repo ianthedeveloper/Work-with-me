@@ -24,12 +24,12 @@ const promise2 = new Promise ((resolve, reject) =>{
 });
 
 const promise3 = new Promise((resolve, reject) => 
-        resolve("Daily reminder: You are becoming a better You!")
+        resolve("Daily reminder: Stepping into greatness one day at a time")
 );
 
 Promise.all([promise1, promise2, promise3])
         .then((results) => console.log(results) )
-        .catch((error) => console.log("Error! Error! Error!", error))
+        .catch((error) => console.log("Oops! There was an error", error))
 
 
 
@@ -40,17 +40,17 @@ Promise.all([promise1, promise2, promise3])
 //NB: Promise.any() resolves the whichever Promise that gets reolved first and throws an Error if none of the Promises are resolved
 
 const promise1 = new Promise ((resolve, reject) =>
-        resolve("Lamborghini SVJ")
+        resolve("Rolls Royce Dawn")
 ); 
 
 const promise2 = new Promise ((resolve, reject) =>
-        resolve("McLaren P1")
+        resolve("Bently Flying Spur")
 );
 
 const promise3 = new Promise((resolve, reject) =>
-        resolve("Porche GTRS")
+        resolve("Esclade")
 );
 
 Promise.any([promise1, promise2, promise3])
         .then((results) => console.log(results) )
-        .catch((error) => console.log("Error! Error! Error!", error))
+        .catch((error) => console.log("Oops! There was an error", error))
