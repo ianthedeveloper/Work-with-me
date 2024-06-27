@@ -11,7 +11,7 @@ const dataType = (xchtr) => {
         type = "String";
         break;
         default:
-        type = "INVALID XCHTR";
+        type = "NOT VALID!";
         break;
     }
 return type;
