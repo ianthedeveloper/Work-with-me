@@ -1,7 +1,7 @@
 const dataType = (xchtr) => {
     let type;
     switch(xchtr){
-        case 9:
+        case 3:
         type = "Integer";
         break;
         case "X":
