@@ -7,7 +7,7 @@ const dataType = (xchtr) => {
         case "B":
         type = "Character";
         break;
-        case "Winning":
+        case "Billiionaire":
         type = "String";
         break;
         default:
