@@ -44,7 +44,7 @@ const promise1 = new Promise ((resolve, reject) =>
 ); 
 
 const promise2 = new Promise ((resolve, reject) =>
-        resolve("Koenigsegg Agera R")
+        resolve("Dark Grey Ford Raptor")
 );
 
 const promise3 = new Promise((resolve, reject) =>
