@@ -4,7 +4,7 @@ const dataType = (xchtr) => {
         case 8:
         type = "Integer";
         break;
-        case "D":
+        case "O":
         type = "Character";
         break;
         case "GREATNESS":
